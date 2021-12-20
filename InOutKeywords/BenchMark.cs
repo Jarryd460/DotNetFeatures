@@ -1,43 +1,45 @@
-﻿namespace InOutKeywords;
+﻿using BenchmarkDotNet.Attributes;
+
+namespace InOutKeywords;
 
 public class BenchMark
 {
-    [BenchmarkDotNet.Attributes.Benchmark]
+    [Benchmark]
     public void MutableAddByType()
     {
         var mutableStruct = new MutableStruct(1, 2, 3);
         AddByType(mutableStruct);
     }
 
-    [BenchmarkDotNet.Attributes.Benchmark]
+    [Benchmark]
     public void MutableAddByRefType()
     {
         var mutableStruct = new MutableStruct(1, 2, 3);
         AddByRefType(in mutableStruct);
     }
 
-    [BenchmarkDotNet.Attributes.Benchmark]
+    [Benchmark]
     public void MutableReadonlyAddByType()
     {
         var mutableStructReadonly = new MutableStructReadonly(1, 2, 3);
         AddByType(mutableStructReadonly);
     }
 
-    [BenchmarkDotNet.Attributes.Benchmark]
+    [Benchmark]
     public void MutableReadonlyAddByRefType()
     {
         var mutableStructReadonly = new MutableStructReadonly(1, 2, 3);
         AddByRefType(in mutableStructReadonly);
     }
 
-    [BenchmarkDotNet.Attributes.Benchmark]
+    [Benchmark]
     public void ImmutableAddByType()
     {
         var immutableStruct = new ImmutableStruct(1, 2, 3);
         AddByType(immutableStruct);
     }
 
-    [BenchmarkDotNet.Attributes.Benchmark]
+    [Benchmark]
     public void ImmutableAddByRefType()
     {
         var immutableStruct = new ImmutableStruct(1, 2, 3);
