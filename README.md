@@ -6,7 +6,7 @@
 
 * In/Out Keywords excluding Covariance and Contravariance
 	* Includes performance pitfalls of in keyword when used incorrectly. https://devblogs.microsoft.com/premier-developer/avoiding-struct-and-readonly-reference-performance-pitfalls-with-errorprone-net/
-	https://github.com/SergeyTeplyakov/ErrorProne.NET can help to mitigate the subtle pitfalls of using in keyword incorrectly
+	* https://github.com/SergeyTeplyakov/ErrorProne.NET can help to mitigate the subtle pitfalls of using in keyword incorrectly
 
 * Smart enums
 	* How to add additional functionality to enums using SmartEnums nuget package. https://github.com/ardalis/SmartEnum
