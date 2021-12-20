@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deconstruction", "Deconstruction\Deconstruction.csproj", "{83BAB218-8D3E-414E-A5EA-46EA68F1C927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOutKeywords", "InOutKeywords\InOutKeywords.csproj", "{547D06C9-AD25-4CCE-816E-18EBC03620EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InOutKeywords", "InOutKeywords\InOutKeywords.csproj", "{547D06C9-AD25-4CCE-816E-18EBC03620EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartEnums", "SmartEnums\SmartEnums.csproj", "{00879BBE-0D41-4C0D-8BCA-C014BC3F0ABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{547D06C9-AD25-4CCE-816E-18EBC03620EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{547D06C9-AD25-4CCE-816E-18EBC03620EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{547D06C9-AD25-4CCE-816E-18EBC03620EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00879BBE-0D41-4C0D-8BCA-C014BC3F0ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00879BBE-0D41-4C0D-8BCA-C014BC3F0ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00879BBE-0D41-4C0D-8BCA-C014BC3F0ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00879BBE-0D41-4C0D-8BCA-C014BC3F0ABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
