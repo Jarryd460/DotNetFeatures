@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deconstruction", "Deconstru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InOutKeywords", "InOutKeywords\InOutKeywords.csproj", "{547D06C9-AD25-4CCE-816E-18EBC03620EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartEnums", "SmartEnums\SmartEnums.csproj", "{00879BBE-0D41-4C0D-8BCA-C014BC3F0ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartEnums", "SmartEnums\SmartEnums.csproj", "{00879BBE-0D41-4C0D-8BCA-C014BC3F0ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{1D00C501-7B27-4597-B8C2-5908E54BCA32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "Params\Params.csproj", "{1D00C501-7B27-4597-B8C2-5908E54BCA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSnippets", "CodeSnippets\CodeSnippets.csproj", "{FE5B3813-CAF7-4DB6-92EF-AEAD39D506E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1D00C501-7B27-4597-B8C2-5908E54BCA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D00C501-7B27-4597-B8C2-5908E54BCA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D00C501-7B27-4597-B8C2-5908E54BCA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5B3813-CAF7-4DB6-92EF-AEAD39D506E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5B3813-CAF7-4DB6-92EF-AEAD39D506E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5B3813-CAF7-4DB6-92EF-AEAD39D506E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5B3813-CAF7-4DB6-92EF-AEAD39D506E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

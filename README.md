@@ -13,3 +13,8 @@
 	
 * Params
 	* Performance impact of using params incorrectly. Including memory consumptions.
+	
+* Visual Studio snippets
+	* How to create and import your own snippets into Visual Studio. https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2022
+	* Snippets helps avoid users writting common code such as for loops, if statements etc. by generating this code automatically.
+	* Snippets schema reference: https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets-schema-reference?view=vs-2022

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="https://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<!--User friendly name for the snippet-->
+			<Title></Title>
+			<!--Author of the snippet-->
+			<Author></Author>
+			<!--The shortcut for the snippet which is used to execute the snippet-->
+			<Shortcut></Shortcut>
+			<!--A description of what the snippet does-->
+			<Description></Description>
+			<!--A url which could provide additional information about the snippet-->
+			<HelpUrl></HelpUrl>
+			<!--The type of snippet. There are two types, SurroundsWith and Expansion-->
+			<SnippetTypes>
+				<!--SurroundsWith takes the highlighted code and surrounds it with the snippet code-->
+				<SnippetType>SurroundsWith</SnippetType>
+				<!--Expansion is a normally snippet that inserts the code of the snippet-->
+				<SnippetType>Expansion</SnippetType>
+				<!--Cannot be used in custom snippetes-->
+				<SnippetType>Refactoring</SnippetType>
+			</SnippetTypes>
+			<!--Keywords which could help others find your snippet if put online-->
+			<Keywords>
+				<Keyword></Keyword>
+				<Keyword></Keyword>
+			</Keywords>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<!--The parameter that will be used in the code snippet that will be replaced by the user input if specified-->
+				<Literal>
+					<!--The parameter name to be identified in the snippet code to be replaced.
+						The values end and selected are reserved and cannot be used-->
+					<ID>Value</ID>
+					<!--The default value of the parameter if no value is provided by the user-->
+					<Default>Value</Default>
+					<!--A description of what the purpose of this parameter is for-->
+					<ToolTip>The text to be placed in the comment</ToolTip>
+				</Literal>
+				<!--A literal can call a built-in function that does specified log eg. the function below generates the case statements based on the literal 'value'.
+					The Editable attribute state whether the literal is editable while generating the final code snippet-->
+				<Literal Editable="false">
+					<ID>cases</ID>
+					<Function>GenerateSwitchCases($value$)</Function>
+					<Default></Default>
+					<ToolTip></ToolTip>
+				</Literal>
+				<Literal Editable="false">
+					<ID>SystemConsole</ID>
+					<!--Available functions: 
+							GenerateSwitchCases(enum)
+							ClassName()
+							SimpleTypeName(type)-->
+					<Function>SimpleTypeName(global::System.Console)</Function>
+					<ToolTip></ToolTip>
+				</Literal>
+				<!--The Object element is used to identify an item that is required by the code snippet but is likely to be defined 
+				outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects-->
+				<Object Editable="true">
+					<ID></ID>
+					<!--Not all languages support functions-->
+					<Function></Function>
+					<Default></Default>
+					<ToolTip></ToolTip>
+					<!--Specifies the type of object-->
+					<Type>System.Data.SqlClient.SqlConnection</Type>
+				</Object>
+			</Declarations>
+			<!--Contains the namespaces that will need to be imported because of classes/enum etc. used in the code snippet-->
+			<Imports>
+				<Import>
+					<Namespace></Namespace>
+				</Import>
+			</Imports>
+			<!--For .NET framework projects, you can also add a reference to the project by using the references element-->
+			<References>
+				<!--You can reference the dll friendly name or the strongly typed name-->
+				<Reference>
+					<Assembly>Assembly.dll</Assembly>
+					<!--A link to a resource which contains more information about the referenced assembly-->
+					<Url></Url>
+				</Reference>
+				<Reference>
+					<Assembly></Assembly>
+					<Assembly>System,Version=1.0.0.1,Culture=neutral,PublicKeyToken=9b35aa323c18d4fb1</Assembly>
+				</Reference>
+			</References>
+			<!--The snippet code that will be pasted once when shortcut specified above is executed. parameters are placed inbetween dollar signs eg. $parameter$.
+				The language is specified as an attribute for which this snippet is intended for.
+				The end parameter marks where the cursor should be when the snippet is inserted.
+				The selected parameter marks where selected text should be inserted within the snippet when the snippet is inserted.
+				The Kind attribute specifies where this code block is appropriate.
+				The Delimeter attribute specifies how literals with be specified in the code block. The default is $-->
+			<Code Language="CSharp" Kind="method body/method decl/type decl/page/file/any" Delimeter="Delimeter">
+				<![CDATA[
+/*
+  $Value$
+*/
+$end$
+switch ($Value$)
+{
+    $cases$
+}
+$selected$
+$SystemConsole$.WriteLine();]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

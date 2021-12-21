@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="https://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Try catch finally block</Title>
+			<Author>Jarryd Deane</Author>
+			<Shortcut>trycf</Shortcut>
+			<Description>Creates a try catch finally block</Description>
+			<SnippetTypes>
+				<SnippetType>SurroundsWith</SnippetType>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+			<Keywords>
+				<Keyword>try</Keyword>
+				<Keyword>catch</Keyword>
+				<Keyword>finally</Keyword>
+				<keyword>try catch block</keyword>
+				<keyword>try catch finally block</keyword>
+			</Keywords>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal Editable="false">
+					<ID>SystemException</ID>
+					<Function>SimpleTypeName(global::System.Exception)</Function>
+					<ToolTip></ToolTip>
+				</Literal>
+				<Literal>
+					<ID>ExceptionName</ID>
+					<Default>exception</Default>
+					<ToolTip>The name of the exception variable</ToolTip>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp" Kind="any" Delimeter="$">
+				<![CDATA[
+try {
+$selected$
+}
+catch($SystemException$ $ExceptionName$)
+{
+}
+finally
+{
+}
+]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
