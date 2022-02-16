@@ -18,3 +18,13 @@
 	* How to create and import your own snippets into Visual Studio. https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2022
 	* Snippets helps avoid users writting common code such as for loops, if statements etc. by generating this code automatically.
 	* Snippets schema reference: https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets-schema-reference?view=vs-2022
+	
+* Smart using statements
+	* How to take advantage of the using statement in c# to create cleaner code.
+	* Dependencies:
+		* Microsoft.Extensions.Hosting
+		* Microsoft.Extensions.Http
+	* Dummy Api: https://jsonplaceholder.typicode.com/posts
+	* Compiler: https://sharplab.io/
+	* IHttpClientFactory: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-6.0
+	* Host builder: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-6.0
