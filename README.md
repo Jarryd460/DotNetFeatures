@@ -28,3 +28,6 @@
 	* Compiler: https://sharplab.io/
 	* IHttpClientFactory: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-6.0
 	* Host builder: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-6.0
+	
+* Closures
+	* Closures are classes (eg. DisplayClass2_0) with a method that are automatically generated when using Linq, Expression, Func, Predicate, Action etc. Basically anywhere where Lambda functions (x => x > 400) are used.

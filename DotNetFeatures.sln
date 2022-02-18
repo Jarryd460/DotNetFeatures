@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "Params\Params.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSnippets", "CodeSnippets\CodeSnippets.csproj", "{FE5B3813-CAF7-4DB6-92EF-AEAD39D506E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartUsingStatements", "SmartUsingStatement\SmartUsingStatements.csproj", "{52794CE7-88F6-4C53-A6C1-D1A5CFC99A23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartUsingStatements", "SmartUsingStatement\SmartUsingStatements.csproj", "{52794CE7-88F6-4C53-A6C1-D1A5CFC99A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Closures", "Closures\Closures.csproj", "{53EF2F5B-D1D7-42EA-853E-0BECD07E2229}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{52794CE7-88F6-4C53-A6C1-D1A5CFC99A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52794CE7-88F6-4C53-A6C1-D1A5CFC99A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52794CE7-88F6-4C53-A6C1-D1A5CFC99A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EF2F5B-D1D7-42EA-853E-0BECD07E2229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EF2F5B-D1D7-42EA-853E-0BECD07E2229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EF2F5B-D1D7-42EA-853E-0BECD07E2229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EF2F5B-D1D7-42EA-853E-0BECD07E2229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
