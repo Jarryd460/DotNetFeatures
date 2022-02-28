@@ -6,6 +6,8 @@
 
 ### Dependencies
 
+* BenchmarkDotNet
+
 ### Boxning
 
 * Running the application and capturing a snapshot (Diagnostics Tools Window) just before "someNumber" is assigned to "someObject" and then again after, you will see that the value "420" is assigned to an object on the heap.

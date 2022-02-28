@@ -31,3 +31,10 @@
 	
 * Closures
 	* Closures are classes (eg. DisplayClass2_0) with a method that are automatically generated when using Linq, Expression, Func, Predicate, Action etc. Basically anywhere where Lambda functions (x => x > 400) are used.
+	
+* Boxing and unboxing
+	* Boxing is the process of converting a value type to the type "object" or to any interface type implemented by this value type. When the common language runtime (CLR) boxes a value type, it wraps the value inside a System.Object instance and stores it on the managed heap. Unboxing extracts the value type from the object.
+
+	
+* C# Records
+	* Records is a class or struct that makes creating immutable objects simple. Using records automatically generates properties, equality checking, cloning and deconstruction among other methods.
